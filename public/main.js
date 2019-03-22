@@ -1,7 +1,7 @@
 const gridSize = 16;
 
 const table = document.querySelector("table");
-const button = document.querySelector("button");
+const button = document.querySelector("#clear-button");
 
 for (let r = 0; r < gridSize; r++) {
     const row = document.createElement("tr");

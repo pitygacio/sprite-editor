@@ -16,7 +16,7 @@ p {
   margin-bottom: 22px;
   background-color: #808080;
   padding: 10px 4px 9px 4px;
-  margin: 2px 2px 50px 1px;
+  margin: 2px 2px 24px 1px;
 }
 
 .container {
@@ -32,6 +32,56 @@ p {
   border-left-color: #dbdbdb;
   border-top-color: #dbdbdb;
   background-color: #bfbfbf;
+}
+
+.palette {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 25px;
+  height: 20px;
+  padding-bottom: 10px;
+  margin-right: 8px;
+  border: 1px solid;
+  border-top-color: #444;
+  border-left-color: #444;
+  border-right-color: #a6a6a6;
+  border-bottom-color: #a6a6a6;
+}
+
+.color.c1 {
+  background-color: #555555;
+}
+
+.color.c2 {
+  background-color: #5555ff;
+}
+
+.color.c3 {
+  background-color: #55ff55;
+}
+
+.color.c4 {
+  background-color: #55ffff;
+}
+
+.color.c5 {
+  background-color: #ff5555;
+}
+
+.color.c6 {
+  background-color: #ff55ff;
+}
+
+.color.c7 {
+  background-color: #ffff55;
+}
+
+.color.c8 {
+  background-color: #ffffff;
 }
 
 #grid {
@@ -54,7 +104,7 @@ p {
   background-color: #000;
 }
 
-button {
+#clear-button {
   display: flex;
   align-items: center;
   justify-content: center;
